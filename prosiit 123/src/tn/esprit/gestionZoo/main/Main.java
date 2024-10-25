@@ -1,7 +1,7 @@
 package tn.esprit.gestionZoo.main;
 
-import tn.esprit.gestionZoo.entities.Animal;
-import tn.esprit.gestionZoo.entities.Zoo;
+import tn.esprit.gestionZoo.entities.*;
+
 public class Main {
     public static void main(String[] args) {
         Animal a = new Animal("l1","lion",6,true);
@@ -28,6 +28,13 @@ public class Main {
         System.out.println("remove animal from zoos");
         System.out.println(z.removeAnimal(a));
         System.out.println(z.comparerZoo(z3,z2));
+        Aquatic aquatic=new Aquatic();
+        Terrestrial terrestrial=new Terrestrial();
+        Dolphin dolphin=new Dolphin();
+        Penguin penguin=new Penguin();
+        aquatic.swim();
+        dolphin.swim();
+        penguin.swim();
 
     }
 

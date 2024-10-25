@@ -7,6 +7,7 @@ public class Zoo
     private  static final int nbr_cages=25;
     private Animal[] animals;
     private int nbr_animals;
+    private  Aquatic [] aquaticAnimals;
     public Zoo(){}
 
     @Override
